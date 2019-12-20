@@ -16,6 +16,11 @@ jobs:
           command: date
 
       - run:
+          name: fix sudo 
+          command: apt-get update
+          command: apt-get install sudo
+
+      - run:
           name: apt install
           command: sudo env PATH=$PATH apt-get install -y build-essential make git gcc
 
