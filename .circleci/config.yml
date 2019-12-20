@@ -16,8 +16,11 @@ jobs:
           command: date
 
       - run:
-          name: fix sudo 
+          name: apt update 
           command: apt-get update
+
+      - run:
+          name: fix sudo 
           command: apt-get install sudo
 
       - run:
