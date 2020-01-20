@@ -1,3 +1,4 @@
+Circle [![CircleCI](https://circleci.com/gh/htzlg/iotkit-embedded.svg?style=svg)](https://circleci.com/gh/htzlg/iotkit-embedded)
 # 用户手册
 
 https://code.aliyun.com/edward.yangx/public-docs/wikis/user-guide/Linkkit_User_Manual
